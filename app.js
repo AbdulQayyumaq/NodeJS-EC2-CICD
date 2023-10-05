@@ -3,7 +3,7 @@ const app = express();
 const port = 6600;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Express Demo App</h1> <h4>Message: Success</h4> <p>Version 1.1 (First Release - Deployed via CICD)</p>');
+  res.send('<h1>Express Demo App</h1> <h4>Message: CICD Deployment Successful</h4> <p>Version 1.1 (Second Release - Deployed via CICD)</p>');
 })
 
 app.get('/products', (req, res) => {
